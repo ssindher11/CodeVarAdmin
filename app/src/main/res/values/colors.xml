@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background">#121D23</color>
+    <color name="title">#FFFFFF</color>
+    <color name="textWhite">#F4F6F8</color>
+    <color name="textGrey">#748290</color>
+    <color name="logInButton">#C28E13</color>
+    <color name="roundInactive">#43808D</color>
+    <color name="roundActive">#02BFE9</color>
+    <color name="foodInactive">#988243</color>
+    <color name="foodActive">#E5AB02</color>
+    <color name="funBreakInactive">#774188</color>
+    <color name="funBreakActive">#A400D5</color>
+
+    <color name="colorSuccess">#39C79D</color>
+    <color name="colorErrorSnackbar">#D93B38</color>
+</resources>

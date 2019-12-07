@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "166591912230",
+    "firebase_url": "https://code-var.firebaseio.com",
+    "project_id": "code-var",
+    "storage_bucket": "code-var.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166591912230:android:0402057b2be228600c09e7",
+        "android_client_info": {
+          "package_name": "com.navdeep.codevaradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhB03Ig2KOdrBoCftPADUMyzEF0qrGgAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "166591912230-0r0tukq76d5l20ss5r14bvbmo8q6vl1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Tushar.CodeVar"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166591912230:android:a82178a93cbc67fb0c09e7",
+        "android_client_info": {
+          "package_name": "com.ssindher11.codevaradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166591912230-e77kgglvipjogisdb7fpvdgtmg3bs4qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssindher11.codevaradmin",
+            "certificate_hash": "db2bf27b39f545e327b7b04fd19a0cee255df200"
+          }
+        },
+        {
+          "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhB03Ig2KOdrBoCftPADUMyzEF0qrGgAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "166591912230-0r0tukq76d5l20ss5r14bvbmo8q6vl1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Tushar.CodeVar"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166591912230:android:614187e72c481e420c09e7",
+        "android_client_info": {
+          "package_name": "com.vit.codevar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhB03Ig2KOdrBoCftPADUMyzEF0qrGgAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166591912230-3fa3ujbssfgjjgi4us3cf0h65071n3id.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "166591912230-0r0tukq76d5l20ss5r14bvbmo8q6vl1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Tushar.CodeVar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
