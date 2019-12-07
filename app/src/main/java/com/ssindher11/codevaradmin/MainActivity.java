@@ -1,13 +1,11 @@
 package com.ssindher11.codevaradmin;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -20,7 +18,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -59,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 String message = notifET.getText().toString();
                 Calendar calendar = Calendar.getInstance();
                 Date d = calendar.getTime();
-                String time = d.getHours() + ":" + d.getMinutes();
+                DateFormat df = new SimpleDateFormat("hh:mm");
+                String time = df.format(d);
                 DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
                 String date = dateFormat.format(d);
                 NotificationModel notification = new NotificationModel(date, message, time);
@@ -72,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                             notificationList.add(dataSnapshot1.getValue(NotificationModel.class));
                         }
                         notificationList.add(notification);
-                        String node = "notification" + notificationList.size();
+                        String node = "notificationId" + notificationList.size();
                         Log.v("xsinx", node);
 
                         notifReference.child(node).setValue(notification);
